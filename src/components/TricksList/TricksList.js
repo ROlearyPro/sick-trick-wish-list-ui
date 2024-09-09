@@ -9,6 +9,7 @@ function TricksList({ tricks }) {
     console.log(tricks[0])
     const cardReturn = tricks.map((trick) => {
         return (
+            <div className="cards">
             <Card
                 name={trick.name}
                 stance={trick.stance}
@@ -16,6 +17,7 @@ function TricksList({ tricks }) {
                 tutorial={trick.tutorial}
                 id={trick.id}
             />
+            </div>
         )
     })
     return(

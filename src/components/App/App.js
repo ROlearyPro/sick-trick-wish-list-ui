@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react';
 import { useState, useEffect, } from 'react';
 import TricksList from '../TricksList/TricksList';
+import NewTrick from '../NewTrick/NewTrick'
 
 function App() {
 
@@ -43,7 +44,8 @@ console.log(tricks)
     <div className="App">
       <h1>Sick Trick Wish List</h1>
       <TricksList tricks={tricks}/> 
-      
+      <div className='addspot'></div>
+      <NewTrick tricks={tricks}/>
     </div>
   );
 }
