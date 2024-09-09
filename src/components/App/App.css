@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: red;
 }
 
 .App-header {
@@ -17,6 +18,8 @@ h1 {
   font-family: 'Fredoka One', cursive;
   font-size: 3em;
   margin-bottom: 240px;
+  color:black;
 }
+
 
 
